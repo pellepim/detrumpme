@@ -1,9 +1,11 @@
 (function () {
     var words = ['President Donald J. Trump', 'President Donald Trump', 'President Trump', 'Donald John Trump',
                  'Donald J. Trump', 'Donald Trump', 'Mr. Trump', 'Trump'];
-    var replace_with = ['The Kwisatz Haderach', 'The God Emperor', 'The Mongoloid',
+    var replace_with = ['The Kwisatz Haderach', 'The God Emperor', 'The Tango Faced Twatnacker',
                         'The Peerless Abortion of Good Taste', 'Der Furher',
-                        'The Knight of the Abyss', 'Myrna Minkoff\'s Horny Uncle'];
+                        'The Knight of the Abyss', 'Myrna Minkoff\'s Horny Uncle',
+                        'The Glorious Leader and Saviour of Western Civilisation',
+                        'His Abhorrent Saltiness'];
 
     var replacepatterns = [];
 
