@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "detrumpme",
+  "description": "This extension removes nearly all traces of Donald Trump from the web. In fact, if you had this extension installed, not even this extension would exist. Whoa. Far out man.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "De-Trump me now!"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["detrumpifyit.js"]
+    }
+  ]
+}
